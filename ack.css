@@ -1,0 +1,21 @@
+body{
+    background-color: tan;
+}
+textarea{
+    
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=submit]{
+    background-color: rgb(211, 138, 42);
+    padding: 10px 16px;
+}
+h2{
+    color: white;
+}
+h2 a{
+    color: beige;
+}

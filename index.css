@@ -1,0 +1,121 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   outline: none;
+   list-style: none;
+   text-decoration: none;
+   font-family: segeo 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    background: whitesmoke;
+    font-size: 15px;
+}
+
+.right-hand {
+    background: white;
+    max-width: 1000px;
+    width: 300px;
+    height: auto;
+    margin: 50px auto;
+    border: 1px solid #efefef;
+    text-align: center;
+   
+}
+input{
+    width: 95%;
+    padding: 12px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px 10px;
+
+}
+.second {
+   background-color: rgb(48, 48, 141);
+   border: none; 
+   padding: 10px 24px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 17px;
+   border-radius: 4px;
+}
+.second a{
+    color: white;
+}
+.btn a{
+    background-color: rgb(48, 48, 141);
+    border: none; 
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 17px;
+    border-radius: 4px;
+    color: white;
+}
+.second{
+    text-align: center;
+}
+.middle{
+    background: white;
+    max-width: 1000px;
+    width: 300px;
+    height: auto;
+    margin: 50px auto;
+    border: 1px solid #efefef;
+    text-align: center;
+   
+    padding: 30px 50px;
+}
+
+.contain{
+    max-width: 400px;
+    display: block;
+    margin: 50px auto;
+
+}
+.contain p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contain ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.foot{
+    margin: 110px 100px;
+}
+.foot ul{
+    max-width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 70%;
+}
+.foot p{
+    float: right;
+    color: #a9a9a9;
+}
+.full{
+    border: 3px solid firebrick;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 1024px){
+   
+    .contain ul{
+        align-items: center;
+        
+    }
+    .foot ul{
+        display: none;
+    }
+    .foot p{
+        text-align: center;
+    }
+}
