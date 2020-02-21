@@ -1,0 +1,43 @@
+body{
+    background-color: tan;
+    font-size: 13px;
+}
+textarea{
+    
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=submit]{
+    background-color: rgb(211, 138, 42);
+    padding: 15px 28px;
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid whitesmoke;
+    transition-duration: 0.5;
+    box-shadow: 2px 2px ghostwhite;
+}
+input[type=submit]:hover{
+    background-color: chocolate;
+    color: white;
+    box-shadow: 2px 3px gainsboro;
+}
+h2{
+    color: white;
+}
+h2 a{
+    color: beige;
+}
+
+
+
+@media screen and (max-width: 1024px){
+    textarea{
+        resize: both;
+        overflow: auto;
+        
+    }
+}
